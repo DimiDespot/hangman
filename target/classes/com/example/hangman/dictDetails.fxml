@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="404.0" prefWidth="339.0" styleClass="anchor-pane" stylesheets="@main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="9.0" layoutY="31.0" text="Current Dictionary Statistics" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="123.0" text="6 letters">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="186.0" text="7 - 9 letters">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="257.0" text="10+ letters">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="stat1Label" layoutX="204.0" layoutY="123.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="stat2Label" layoutX="204.0" layoutY="186.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="stat3Label" layoutX="204.0" layoutY="257.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="OK_btn" defaultButton="true" layoutX="142.0" layoutY="332.0" mnemonicParsing="false" onAction="#OKClicked" text="OK">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
